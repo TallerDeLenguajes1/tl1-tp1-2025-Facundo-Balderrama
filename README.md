@@ -23,3 +23,24 @@ archivo.txt
 .vscode/
 Thumbs.db
 .DS_Store
+
+# Explicacion del ejercicio de punteros
+
+# Explicación del ejercicio sobre punteros en C
+
+## 1. ¿Por qué el resultado de los apartados 2 y 3 es el mismo?
+
+En los apartados 2 y 3 del ejercicio, se obtiene la misma dirección de memoria porque ambas variables apuntan a la misma dirección de memoria.
+
+- **Punto 2**: Se muestra la dirección de memoria almacenada por el puntero, que es la dirección a la que apunta el puntero. Que seria la direccion de la variabble.
+- **Punto 3**: Se muestra la dirección de memoria de la variable.
+
+Como el puntero almacena la direccion de memoria de la variable, la dirección de memoria del puntero es la misma que la dirección de la variable. 
+
+## 2. ¿Qué obtiene en el punto 4?
+
+En el **punto 4** se obtiene la dirección de memoria de la variable puntero, es decir, la dirección en la que se encuentra almacenado el puntero.
+
+## 3. ¿Es igual a los anteriores? ¿Por qué?
+
+No, la dirección de memoria del puntero obtenida en el punto 4 no es igual a la dirección de la variable ni a la dirección almacenada por el puntero en los puntos 2 y 3. La razón es que el puntero y la variable a la que apunta son dos variables diferentes, por lo que tienen diferentes direcciones de memoria. 
